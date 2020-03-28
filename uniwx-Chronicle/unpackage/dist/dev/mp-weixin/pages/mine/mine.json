@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "navigationBarBackgroundColor": "#f3faff",
+  "usingComponents": {
+    "van-loading": "/wxcomponents/vant/dist/loading/index"
+  }
+}

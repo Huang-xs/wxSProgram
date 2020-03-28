@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "日程",
+  "navigationBarBackgroundColor": "#ddd",
+  "usingComponents": {
+    "van-tab": "/wxcomponents/vant/dist/tab/index",
+    "van-tabs": "/wxcomponents/vant/dist/tabs/index",
+    "van-divider": "/wxcomponents/vant/dist/divider/index",
+    "van-rate": "/wxcomponents/vant/dist/rate/index",
+    "van-steps": "/wxcomponents/vant/dist/steps/index",
+    "add-task": "/components/addTask"
+  }
+}

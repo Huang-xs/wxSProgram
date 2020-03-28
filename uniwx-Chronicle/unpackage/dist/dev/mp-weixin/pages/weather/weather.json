@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "天气情况",
+  "navigationBarBackgroundColor": "#80adff",
+  "usingComponents": {
+    "van-search": "/wxcomponents/vant/dist/search/index",
+    "van-grid": "/wxcomponents/vant/dist/grid/index",
+    "van-grid-item": "/wxcomponents/vant/dist/grid-item/index"
+  }
+}
