@@ -1,0 +1,4 @@
+<cover-view class="btn" bindtap="click">
+<cover-image class="icon" src="../../assets/icons/icon.png"></cover-image>
+</cover-view>
+<map longitude="{{location.longitude}}" latitude="{{location.latitude}}" show-location="true"></map>
