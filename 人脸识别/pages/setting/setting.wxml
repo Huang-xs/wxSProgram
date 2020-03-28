@@ -1,0 +1,4 @@
+<view>
+  <text>系统设置</text>
+  <slider class="slide" value="{{value}}" show-value="true" bindchanging="changing"></slider>
+</view>

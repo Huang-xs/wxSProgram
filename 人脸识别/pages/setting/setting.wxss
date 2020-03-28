@@ -1,0 +1,16 @@
+/* pages/setting/setting.wxss */
+/* pages/setting/setting.wxss */
+page{
+  padding-top: 40rpx;
+}
+text{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+.slide{
+  width: 100%;
+  padding:30rpx 20rpx;
+  margin:20rpx 0;
+  box-sizing: border-box;
+  background-color: white;
+}

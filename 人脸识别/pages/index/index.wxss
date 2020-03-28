@@ -1,0 +1,38 @@
+/* pages/index/index.wxss */
+
+.box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 30rpx;
+}
+
+.box>text {
+        align-self: flex-start;
+        padding-left: 80rpx;
+}
+
+.img {
+        position: relative;
+        width: 290px;
+        margin-bottom: 30rpx;
+}
+
+.img>.location {
+        position: absolute;
+        border: 1rpx solid greenyellow;
+}
+
+.img>image {
+        width: 100%;
+        display: block;
+}
+
+button {
+        position: fixed;
+        bottom: 5%;
+        right: 0;
+        left: 0;
+        margin: auto;
+}

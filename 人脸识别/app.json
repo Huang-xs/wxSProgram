@@ -1,0 +1,32 @@
+{
+        "pages": [
+                "pages/index/index",
+                "pages/mine/mine",
+                "pages/setting/setting"
+        ],
+        "window": {
+                "navigationBarBackgroundColor": "#D5F3FF",
+                "navigationBarTitleText": "人脸识别",
+                "navigationBarTextStyle": "black"
+        },
+        "tabBar": {
+                "selectedColor": "#4F4D5F",
+                "color": "#AFAFAF",
+                "list": [
+                        {
+                                "pagePath": "pages/index/index",
+                                "text": "识别",
+                                "iconPath": "icons/faceid.png",
+                                "selectedIconPath": "icons/active_faceid.png"
+                        },
+                        {
+                                "pagePath": "pages/mine/mine",
+                                "text": "我的",
+                                "iconPath": "icons/mine.png",
+                                "selectedIconPath": "icons/ac_mine.png"
+                        }
+                ]
+        },
+        "style": "v2",
+        "sitemapLocation": "sitemap.json"
+}

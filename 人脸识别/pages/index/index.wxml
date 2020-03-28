@@ -1,0 +1,17 @@
+<!--pages/index/index.wxml-->
+<view class="box">
+        <view class="img" wx:if="{{flag}}">
+                <image  src="{{url}}" mode="width"></image>
+                <view class="location" style="position: absolute;left:{{face_list.location.left * n}}px;top:{{face_list.location.top * n}}px;width:{{face_list.location.width * n}}px;height:{{face_list.location.height * n}}px; transform:rotate({{face_list.location.rotation}}deg)"></view>
+        </view>
+        <text wx:if="{{flag}}">性别：{{face_list.gender.type == null?"":face_list.gender.type == "male" ?"男性":"女性" }}</text>
+        <text wx:if="{{flag}}">年龄：{{face_list.age== null?"":face_list.age}}</text>
+        <text wx:if="{{flag}}">颜值：{{face_list.beauty== null?"":face_list.beauty}}</text>
+        <text wx:if="{{flag}}">表情：{{face_list.expression.type== null?"":face_list.expression.type == "none"?"不笑":face_list.expression.type=="smile"?"微笑":"大笑"}}</text>
+        <text wx:if="{{flag}}">情绪：{{face_list.emotion.type== null?"":face_list.emotion.type == "angry" ? "愤怒":face_list.emotion.type == "disgust"?"厌恶":face_list.emotion.type == "fear"?"恐惧":face_list.emotion.type == "happy"?"开心":face_list.emotion.type == "sad"?"伤心":face_list.emotion.type == "surprise"?"惊讶":face_list.emotion.type == "neutral"?"无表情":face_list.emotion.type == "pouty"?"撅嘴":"鬼脸"}}</text>
+        <text wx:if="{{flag}}">脸型：{{face_list.face_shape.type== null?"":face_list.face_shape.type == "square"?"正方形":face_list.face_shape.type == "triangle"?"三角形":face_list.face_shape.type == "oval"?"椭圆":face_list.face_shape.type == "heart"?"心形":"圆形"}}</text>
+        <text wx:if="{{flag}}">眼镜：{{face_list.glasses.type== null?"":face_list.glasses.type=="none"?"无眼镜":face_list.face_shape.type == "common"?"普通眼镜":"墨镜"}}</text>
+        <text wx:if="{{flag}}">类别：{{face_list.face_type== null?"":face_list.face_type == "human"?"真实人脸":"卡通人脸"}}</text>
+
+</view>
+<button bindtap="click">选择图片</button>
